@@ -31,7 +31,7 @@ export class CadastrarComponent implements OnInit {
   }
 
   cadastrar() {
-    if (this.tipoUsuario == "admin"){
+    if (this.tipoUsuario == "admin") {
       this.user.admin = "adm"
     } else {
       this.user.admin = "user"

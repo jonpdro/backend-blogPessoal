@@ -16,11 +16,11 @@ export class AuthService {
   ) { }
 
   entrar(userLogin: UserLogin): Observable<UserLogin> {
-    return this.http.post<UserLogin>('https://blogpessoaljp.herokuapp.com/usuarios/entrar', userLogin)
+    return this.http.post<UserLogin>('https://insiraSeuDeploy.com/usuarios/entrar', userLogin)
   }
 
   cadastrar(user: User): Observable<User> {
-    return this.http.post<User>('https://blogpessoaljp.herokuapp.com/usuarios/cadastrar', user)
+    return this.http.post<User>('https://insiraSeuDeploy.com/usuarios/cadastrar', user)
   }
 
   logado() {
@@ -29,7 +29,7 @@ export class AuthService {
     if (environment.token != '') {
       ok = true
     }
-    
+
     return ok
   }
 
