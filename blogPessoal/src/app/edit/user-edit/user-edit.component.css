@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+.fa-size {
+    font-size: 16pt;
+    display: flex;
+}
+
+.myform {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #79B4B7;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 600px;
+}

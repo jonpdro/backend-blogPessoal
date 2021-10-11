@@ -1,3 +1,6 @@
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { HomeComponent } from './home/home.component';
@@ -12,12 +15,17 @@ const routes: Routes = [
 
   {path: 'entrar', component: EntrarComponent},
   {path: 'cadastrar', component: CadastrarComponent},
-  {path: 'tema', component: TemaComponent},
+  
+  {path: 'home', component: HomeComponent},
 
+  {path: 'tema', component: TemaComponent},
   {path: 'tema-edit/:id', component: TemaEditComponent},
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
 
-  {path: 'home', component: HomeComponent}
+  {path: 'postagem-edit/:id', component: PostagemEditComponent},
+  {path: 'postagem-delete/:id', component: PostagemDeleteComponent},
+ 
+  {path: 'user-edit/:id', component: UserEditComponent}
 ];
 
 @NgModule({

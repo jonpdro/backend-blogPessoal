@@ -8,5 +8,5 @@ export const environment = {
   admin: '',
   fotoPerfil: '',
   fotoCapa: ''
-
+  
 };

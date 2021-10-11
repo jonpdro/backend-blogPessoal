@@ -1,0 +1,13 @@
+.bg-1 {
+    background-color: #79b4b742;
+}
+
+.fs-11 {
+    margin-top: 1.5px;
+    font-size: 11pt;
+}
+
+.form-control {
+    border-radius: 4.25rem;
+    background-color: #79b4b763;
+}
